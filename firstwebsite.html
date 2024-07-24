@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first cofee shop</title>
+    <link rel="stylesheet" href="p1.css" />
+    
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url(img/bggg.avif);
+        background-size: 6500px auto;
+        background-repeat: no-repeat;
+        color: rgb(10, 1, 1);
+        font-size: 75px;
+        font-family: cursive;
+      }
+      .left{
+        /* border: 3px solid grey; */
+        display: inline-block;
+        position: absolute;
+        left: 33px;
+        top: 30px;
+      }
+      .mid{
+        /* border: 3px solid yellowgreen; */
+        display: block;
+        width: 33%;
+        margin: 22px auto;
+      }
+      .right{
+        position: absolute;
+        right: 33px;
+        top: 22px;
+        /* border: 3px solid red; */
+        display: inline-block;
+      }
+      .navbar li{
+        display: inline-block;
+        font-size: 95px;
+      }
+      .navbar li a{
+        color: rgb(235, 129, 15);
+        text-decoration: none;
+        padding: 22px 90px;;
+      }
+      .navbar li a:hover ,.navbar li a.active
+      {
+        text-decoration: underline;
+        color: rgba(72, 65, 65, 0.906);
+      }
+      .left img{
+        width: 300px;
+        mix-blend-mode: multiply;
+        
+      }
+      .left div{
+        text-align: center;
+      }
+      .btn{
+        margin: 2px 15px;
+        padding: 4px 14px;
+        font-size: 75px;
+        background-color:rgb(158, 21, 21);
+        color: white;
+        border: 2px solid rgb(14, 13, 13);
+        font-size:75px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .btn:hover{
+        background-color: rgb(57, 54, 54);
+      }
+      .cont{
+        /* border: 2px solid rgb(53, 53, 5); */
+        margin: 500px 225px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        width: 33%;
+
+      }
+      .info input{
+        text-align: center;
+        padding: 15px;
+        display: block;
+        width: 1000px;
+        margin: 32px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 50px;
+      }
+      .bt{
+        margin: 5px;
+        padding: 2px auto;
+      }
+      .cont h4{
+        text-align: center;
+      }
+      .cont button{
+        display: block;
+        width: 550px;
+        margin: 13px 724px;
+        padding: 25px 0px;
+        font-size: 52px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="class">
+      <div class="left">
+        <img src="img/cofeeee logo.jpg" alt="">
+        <div>
+          caffine 
+        </div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="" class="active"> home</a></li>
+          <li><a href=""> store</a></li>
+          <li><a href=""> items</a></li>
+          <li><a href=""> contuct us</a></li>
+      </div>
+      <div class="right">
+          <button class="btn"> call us</button>
+          <button class="btn"> e-mail us</button>
+      </div>
+    </header> 
+
+    <div class="cont">
+      <h4>
+        here is your favorite cofee:</h4>
+        <div class="info">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="info">
+          <input type="text" placeholder=" Enter Order number">
+        </div>
+        <div class="info">
+          <input type="text" placeholder=" Enter your items ">
+        </div>
+        <div class="info">
+          <input type="text" placeholder=" Enter your Address">
+        </div>
+        <button class="bt">submit</button>
+    </div>
+  </body>
+</html>
